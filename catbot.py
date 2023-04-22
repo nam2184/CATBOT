@@ -38,7 +38,7 @@ def submission(randomcat):
     reddit = details()
 
     #Detailing which subreddit to submit to
-    mysubreddit = reddit.subreddit("CATPOSTING2")
+    mysubreddit = reddit.subreddit("anysubreddit")
 
     #Submission
     mysubreddit.submit_image("Randomcatpic", randomcat)
